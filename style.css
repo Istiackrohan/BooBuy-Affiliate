@@ -1,0 +1,24 @@
+body{
+    background-image: url("/images/buy\ your\ satisfaction\ \(1\).png");
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.container{
+    margin: 100px;
+    height: 600px;
+    width: 600px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px grey;
+}
+#header{
+    padding: 50px; 
+    color: rgb(165, 48, 28);
+    font-family: Segoe UI Black;
+    text-align: center;
+}
+#data-input{
+    padding: 20px;
+}

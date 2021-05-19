@@ -9,21 +9,26 @@ body{
     margin: 100px 300px;
     height: 600px;
     border-radius: 15px;
-    box-shadow: 5px 5px 10px grey;
-    background-color: antiquewhite;
+    box-shadow:  0 0 10px  rgba(0,0,0,0.7);
+      -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.7);
+      -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.7);
+      -o-box-shadow: 0 0 10px  rgba(0,0,0,0.7);
 }
 .heading{
     padding: 50px; 
-    color: rgb(165, 48, 28);
+    color: rgb(161, 25, 7);
     font-family: Segoe UI Black;
     text-align: center;
+    text-shadow: 2px 2px 2px salmon;
 }
 #data-input{
     padding: 40px;
     margin: 0px 200px;
-    border: 2px solid black;
-    border-radius: 5px;
-    background-color: rgba(0,0,0, 0.2);
+    border: 2px solid rgb(226, 68, 50);
+    box-shadow: 5px 5px 10px salmon;
+    border-radius: 10px;
+    background-color: rgba(0,0,0, 0.8);
+    color: white;
 }
 #Log-in{
     margin-bottom: 10px;

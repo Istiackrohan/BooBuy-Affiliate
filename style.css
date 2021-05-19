@@ -1,24 +1,31 @@
 body{
     background-image: url("/images/buy\ your\ satisfaction\ \(1\).png");
-    background-position: unset;
+    background-position: cover;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
-.container{
-    margin: 100px;
+.login-container{
+    margin: 100px 300px;
     height: 600px;
-    width: 600px;
-    background-color: white;
     border-radius: 15px;
     box-shadow: 5px 5px 10px grey;
+    background-color: antiquewhite;
 }
-#header{
+.heading{
     padding: 50px; 
     color: rgb(165, 48, 28);
     font-family: Segoe UI Black;
     text-align: center;
 }
 #data-input{
-    padding: 20px;
+    padding: 40px;
+    margin: 0px 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgba(0,0,0, 0.2);
+}
+#Log-in{
+    margin-bottom: 10px;
+    width: 100%;
 }
